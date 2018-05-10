@@ -30,7 +30,7 @@ import mooquant.logger
 from mooquant import barfeed, dataseries, resamplebase
 from mooquant.bar import Frequency
 from mooquant.utils import dt
-from .. import bar
+from mooquant_tushare import bar
 
 logger = mooquant.logger.getLogger("tushare")
 

@@ -19,7 +19,7 @@ from unittest import TestCase
 
 from pandas import DataFrame
 
-from cn.tushare.barfeed import TuSharePollingThread
+from mooquant_tushare.barfeed import TuSharePollingThread
 
 
 class TestTuSharePollingThread(TestCase):

@@ -21,7 +21,7 @@ from unittest import TestCase
 import mock
 import pandas as pd
 
-from cn.tushare.barfeed import get_trading_days
+from mooquant_tushare.barfeed import get_trading_days
 
 
 class TestGet_trading_days(TestCase):

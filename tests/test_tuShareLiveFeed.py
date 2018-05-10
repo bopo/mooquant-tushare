@@ -21,7 +21,7 @@ import mock
 from pandas import DataFrame
 
 from mooquant import dataseries
-from cn.tushare.barfeed import TuShareLiveFeed
+from mooquant_tushare.barfeed import TuShareLiveFeed
 
 
 class TestTuShareLiveFeed(TestCase):

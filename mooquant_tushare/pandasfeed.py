@@ -7,7 +7,7 @@ Created on Sat Sep 03 16:52:59 2016
 
 from mooquant import dataseries
 from mooquant.barfeed import membf
-from . import bar
+from mooquant_tushare import bar
 
 
 def dataframeToBar(bar_dataframe, frequency):

@@ -10,7 +10,7 @@ import pandas as pd
 
 from mooquant import dataseries
 from mooquant.barfeed import membf
-from .pandasfeed import dataframeToBar, dataframeToTick
+from mooquant_tushare.pandasfeed import dataframeToBar, dataframeToTick
 
 
 class Feed(membf.BarFeed):

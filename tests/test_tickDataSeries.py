@@ -17,7 +17,7 @@
 """
 from unittest import TestCase
 
-from cn.tushare.barfeed import TickDataSeries, build_bar
+from mooquant_tushare.barfeed import TickDataSeries, build_bar
 
 
 class TestBuild_bar(TestCase):

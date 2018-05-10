@@ -8,7 +8,7 @@ MANIFEST
 .coverage
 .ipynb_checkpoints
 .ropeproject
-
+.pytest_cache/
 /dist
 /build
 *.egg-info
